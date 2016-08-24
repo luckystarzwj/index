@@ -49,3 +49,5 @@ function getStyle(obj,attr){
 
 
 alert(123)
+
+move(hello)
