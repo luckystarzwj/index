@@ -38,16 +38,13 @@ function move(obj,json,fn){
 	  },30)
 }
 
-function getStyle(obj,attr){
-	 if(obj.currentStyle){
-	         
-	 	return obj.currentStyle[attr]
-	 }else{
-	 	return getComputedStyle(obj,false)[attr]
-	 }
-}
+	function getStyle(obj,attr){
+		 if(obj.currentStyle){
+		         
+		 	return obj.currentStyle[attr]
+		 }else{
+		 	return getComputedStyle(obj,false)[attr]
+		 }
+	}
+	
 
-
-alert(123)
-
-move(hello)
